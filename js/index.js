@@ -31,7 +31,7 @@ $("#city li").bind({
 //定时器
 var timer;
 function show(){
-	var enddate=new Date("2017-05-01 00:00:00");
+	var enddate=new Date("2017-10-01 00:00:00");
 	var nowdate=new Date();
 	var endtime=enddate.getTime();
 	var nowtime=nowdate.getTime();
