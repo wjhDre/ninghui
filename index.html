@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>mobile</title>
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/common.js"></script>
+	<script src="js/jquery-1.9.0.js"></script>
+	<script src="js/swiper.min.js"></script>
+	
+</head>
+<body>
+	<!-- header部分 -->
+	<header>
+		<div id="headBar">
+			<div id="headContainer">
+				<div class="common left">
+					<span>南京</span><img src="images/drop-down.png">
+					<ul id="city">
+						<li>杭州</li>
+						<li>无锡</li>
+						<li>苏州</li>
+						<li>常州</li>
+						<li>徐州</li>
+					</ul>
+				</div>
+				<div class="common center">
+					<input type="search" placeholder="请输入商品名、品类、或商圈…">
+				</div>
+				<div class="common right"></div>
+			</div>
+		</div>
+	</header>
+	<article>
+		<!-- article部分one -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="images/u1.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/u3.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/u5.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/u7.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/u9.jpg">
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- article部分two -->
+		<div id="buttonBar">
+			<div class="buttonContainer">
+				<img src="images/food.jpg">
+				<p>美食</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/hotel.png" id="hotel">
+				<p>酒店</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/view.jpg">
+				<p>景点</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/recreation.jpg">
+				<p>休闲娱乐</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/charge.jpg">
+				<p>闪惠团购</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/film.jpg">
+				<p>电影</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/jourery.jpg">
+				<p>度假套餐</p>
+			</div>
+			<div class="buttonContainer">
+				<img src="images/shop.png">
+				<p>购物</p>
+			</div>
+		</div>
+		<hr>
+		<!-- article部分three -->
+		<div class="title">
+			<span class="title1">免费体验区</span>
+			<span class="title2" id="clock"></span>
+			<span class="title3">查看更多&gt;</span>
+		</div>
+		<div id="free">
+			<div class="freeContainer">
+				<img src="images/ice.png" alt="">冰淇淋
+			</div>
+			<div class="freeContainer">
+				<img src="images/drink.png" alt="">果蔬饮料
+			</div>
+			<div class="freeContainer">
+				<img src="images/fruits.png" alt="">水果拼盘
+			</div>
+			<div class="freeContainer">
+				<img src="images/pizza.png" alt="">美味披萨
+			</div><div class="freeContainer">
+				<img src="images/car.png" alt="">洗车擦车
+			</div>
+			<div class="freeContainer">
+				<img src="images/shoot.png" alt="">摄影写真
+			</div>
+			<div class="freeContainer">
+				<img src="images/billiards.png" alt="">台球休闲
+			</div>
+			<div class="freeContainer">
+				<img src="images/health.png" alt="">足浴养生
+			</div>
+		</div>
+		<hr>
+		<!-- article部分four -->
+		<div class="title">
+			<span class="title1">玖邦尼创富</span>
+			<span class="title2">邦尼币购物，超值超划算！</span>
+			<span class="title3">查看全部&gt;</span>
+		</div>
+		<div id="bonny">
+			<div class="bonnyContianer">
+				<span class="big">养生</span>
+				<span class="small">强身保健</span>
+				<img src="images/SPA.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">美食</span>
+				<span class="small">舌尖美味</span>
+				<img src="images/cate.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">娱乐</span>
+				<span class="small">嗨翻全场</span>
+				<img src="images/ktv.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">丽人</span>
+				<span class="small">华丽蜕变</span>
+				<img src="images/beautiful.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">电影</span>
+				<span class="small">身临其境</span>
+				<img src="images/movie.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">写真</span>
+				<span class="small">定格美丽</span>
+				<img src="images/photo.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">住宿</span>
+				<span class="small">身心放松</span>
+				<img src="images/stay.png" alt="">
+			</div>
+			<div class="bonnyContianer">
+				<span class="big">培训</span>
+				<span class="small">技能提升</span>
+				<img src="images/guitar.png" alt="">
+			</div>
+		</div>
+		<hr>
+		<!-- article部分five -->
+		<div class="title">
+			<span class="title1">猜你喜欢</span>
+			<span class="title2"></span>
+			<span class="title3">查看所有&gt;</span>
+		</div>
+		<div id="like">
+			<div class="likeContianer">
+				<img src="images/cake.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">香贝贝蛋糕/蛋挞</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【高皇寨花都莲郡小区门向西30米】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥49.00元</span>
+						<span>月销量：1532份</span>
+					</div>
+				</div>
+			</div>
+			<div class="likeContianer">
+				<img src="images/mala.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">天天见面麻辣香锅</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【晨旭路交叉口西100米麻辣香锅】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥49.00元</span>
+						<span>月销量：1352份</span>
+					</div>
+				</div>
+			</div>
+			<div class="likeContianer">
+				<img src="images/noodle.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">重庆小面</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【郑州市金水区庙李南二街345号】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥6.00元</span>
+						<span>月销量：1202份</span>
+					</div>
+				</div>
+			</div>
+			<!-- 隐藏部分 -->
+			<div class="likeContianer hidden">
+				<img src="images/cake.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">香贝贝蛋糕/蛋挞</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【高皇寨花都莲郡小区门向西30米】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥49.00元</span>
+						<span>月销量：1532份</span>
+					</div>
+				</div>
+			</div>
+			<div class="likeContianer hidden">
+				<img src="images/mala.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">天天见面麻辣香锅</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【晨旭路交叉口西100米麻辣香锅】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥49.00元</span>
+						<span>月销量：1352份</span>
+					</div>
+				</div>
+			</div>
+			<div class="likeContianer hidden">
+				<img src="images/noodle.png">
+				<div class="wordWrap">
+					<div class="wrap">
+						<span class="name">重庆小面</span>
+						<span>&lt;1Km</span>
+					</div>
+					<div class="wrap">
+						<span>【郑州市金水区庙李南二街345号】</span>
+					</div>
+					<div class="wrap">
+						<span class="price">￥6.00元</span>
+						<span>月销量：1202份</span>
+					</div>
+				</div>
+			</div>
+			<div id="all">
+				查看全部团购
+			</div>
+		</div>
+	</article>
+	<!-- footer部分 -->
+	<footer>
+		<div id="bottomBar">
+			<div class="bottomContianer">
+				<img src="images/HOME.png">
+				商城首页
+			</div>
+			<div class="bottomContianer">
+				<img src="images/cooperation.png">
+				商家合作
+			</div>
+			<div class="bottomContianer">
+				<img src="images/list.png">
+				订单列表
+			</div>
+			<div class="bottomContianer">
+				<img src="images/USER.png">
+				会员中心
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+<script src="js/index.js"></script>
